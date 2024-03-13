@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.mainBG{
+    /* background-color: aqua; */
+    height:100vh;
+    width:100vw;
+}
+.startPageTwo{
+    height: 100vh;
+}
+
+#firstImage{
+    /* opacity: 0.1; */
+    height:410px;
+    width:100vw;
+    background-color: black;
+    z-index: 1; 
+    background-image: url("firstImage.png");
+    background-repeat: no-repeat;
+    background-size: 100% 406px;
+    transform: scaleX(-1);
+}
+
+
+
+#secondImage{
+    height:400px;
+    width:100vw;
+    background-color:red ;
+    z-index: 3;
+    position: relative;
+    /* opacity: 0.2; */
+    bottom:250px;
+    clip-path: polygon(24% 62%,100% 100%,100% 15%,80% 0%);
+    background-image: url("secondImage.png");
+    background-repeat: no-repeat;
+    background-size:2220px 400px;
+   
+}
+   
+#thirdImage{
+    height:400px;
+    width: 100vw;
+    background-color: green;
+    z-index: 5;
+    /* opacity: 0.3; */
+    position: relative;
+    bottom:450px;
+    clip-path: polygon(0% 0%,100% 50%,100% 70%,0% 100%);
+    background-image: url("thirdImage.png");
+    background-repeat: no-repeat;
+    background-size:1550px 678px ;
+
+    
+}
+#forthImage{
+    height:400px;
+    width:100vw;
+    background-color: yellowgreen;
+    /* opacity: 0.2; */
+    z-index: 7;
+    position: relative;
+    bottom:570px;
+    clip-path: polygon(0% 30%,100% 0%,100% 100%,0% 100%);
+    background-image:url("forthImage.png");
+    background-size:1525px 410px;
+    background-repeat: no-repeat;
+
+}
