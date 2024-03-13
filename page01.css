@@ -1,0 +1,196 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .page1{
+    height:100vh;
+    background-color: aqua;
+  }
+  
+  .page1 img {
+    height: 100vh;
+    width: 100vw;
+
+    justify-content: center;
+    align-content: center;
+  }
+
+  .bg{
+    width:100vw;
+  }
+
+  header{
+    background-color: blue;
+  }
+  
+
+  nav{
+    position:absolute;
+    top:0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100vw;
+    background-color: rgba(0, 0, 0,0.2);
+  }
+
+  .logo{
+    margin-left: 150px;
+    display:inline-block;
+    /* background-color: aqua; */
+  }
+
+  #logo{
+    height:50px;
+    width:200px;
+  }
+
+  .menu-btn{
+    width:80px;
+    height:28px;
+    color:white;
+    border:2px solid black;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0,0.1);
+    margin-right: 150px;
+  }
+
+  
+  .main-content{
+    display: inline-block;
+    position: relative;
+    bottom:450px;
+    height:257px;
+    width: 590px;
+    position: relative;
+    left:450px;
+    
+    /* background-color: aqua; */
+  }
+  .v3-3{
+    height:40px;
+    width:120px;
+    text-align: end;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:arial black;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    display:inline-block;
+    /* background-color: bisque; */
+    position:absolute;
+    left:455px;
+    top:20px;
+  }
+  h1{
+
+    position:absolute;
+    top:48px;
+    left:18px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:arial black ;
+    text-shadow:  1px 1px 2px , 0 0 9em black, 0 0 0.5em black;
+    color:rgba(255, 255, 255,0.5);
+    
+  }
+  h2{
+    text-shadow:  1px 1px 2px , 0 0 9em black, 0 0 0.5em black;
+    color:rgba(255, 255, 255,0.5);
+    position:absolute;
+    top:114px;
+    left:180px;
+    font-weight: bold;
+    font-family:arial black ;
+  }
+  .story{
+    text-shadow:  1px 1px 2px , 0 0 9em black, 0 0 0.5em black;
+    color:rgba(255, 255, 255,0.8);
+    position: absolute;
+    bottom:20px;
+    left:20px;
+    display: inline-block;
+    /* background-color: azure; */
+    text-align: center;
+    letter-spacing: 1px;;
+  }
+  .event{
+    text-shadow:  1px 1px 2px , 0 0 9em black, 0 0 0.5em black;
+    color:rgba(255, 255, 255,0.8);
+    position:absolute;
+    top:152px;
+    left:155px;
+  }
+
+  .trapaziums{
+    height:auto;
+    display: flex;
+    justify-content: center;
+    /* display:inline-block; */
+      /* background-color: aqua; */
+      position:relative;
+      bottom:335px;
+      /* left:550px; */
+  }
+  .trapazium1{
+    
+    width: 100px;
+    border-bottom:50px solid rgb(66, 66, 178);
+    border-left:20px solid transparent;
+    border-right: 20px solid transparent;
+    
+  }
+  .trapazium2{
+    width: 100px;
+    border-bottom:50px solid purple;
+    border-left:20px solid transparent;
+    border-right: 20px solid transparent;
+    
+  }
+  .trapazium3{
+    width: 100px;
+    border-bottom:50px solid  rgb(66, 66, 178);
+    border-left:20px solid transparent;
+    border-right: 20px solid transparent;
+
+  }
+
+  #trapazium1{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:  1px 1px 2px , 0 0 9em black, 0 0 0.5em black;
+    position: relative;
+    top:30px;
+    right:6px;
+  }
+
+  #trapazium2{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:  1px 1px 2px , 0 0 9em black, 0 0 0.5em black;
+    position:relative;
+    top:30px;
+    left:12px;
+
+  }
+
+  #trapazium3{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:  1px 1px 2px , 0 0 9em black, 0 0 0.5em black;
+    position: relative;
+    top:30px;
+    left:8px;
+    
+  }
+  
