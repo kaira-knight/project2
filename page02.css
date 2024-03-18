@@ -2,11 +2,7 @@
     margin:0px;
     padding:0px;
 }
-.mainBG{
-    /* background-color: aqua; */
-    height:100vh;
-    width:100vw;
-}
+
 body{
     background-color: rgba(100, 187, 187,0.8);
     /* filter:blur(10px); */
@@ -14,6 +10,16 @@ body{
 }
 .startPageTwo{
     height: 100vh;
+    width: 100vw;
+    background-color: rgba(100, 187, 187,0.8);
+    /* filter:blur(10px); */
+    backdrop-filter: blur(10px);
+}
+
+.mainBG{
+    /* background-color: aqua; */
+    height:100vh;
+    width:100vw;
 }
 
 #firstImage{
