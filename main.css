@@ -29,9 +29,9 @@ body {
   width:100vw;
 }
 
+
 header{
   background-color: blue;
-
 }
 
 
@@ -85,8 +85,11 @@ nav{
   text-align: end;
   font-size: 25px;
   font-weight: bold;
-  font-family:arial rgb(243, 240, 240);
-  background: linear-gradient(to right, rgba(255,0,0,0), rgb(153, 8, 8));
+  font-family:arial;
+  color:  rgb(243, 240, 240);
+  padding-right: 10px;
+  padding-top: 6px;
+  background: linear-gradient(to right, rgba(255,0,0,0), rgb(199, 11, 11));
   display:inline-block;
   /* background-color: bisque; */
   position:absolute;
@@ -94,7 +97,6 @@ nav{
   top:20px;
 }
 h1{
-
   position:absolute;
   top:48px;
   left:18px;
@@ -102,21 +104,20 @@ h1{
   font-weight: bold;
   font-family:arial black ;
   text-shadow:  1px 1px 2px , 0 0 9em black, 0 0 0.5em black;
-  color:rgba(255, 255, 255,0.5);
-  
+  color:rgb(255, 255, 255);
 }
-h2{
+.main-content h2{
   text-shadow:  1px 1px 2px , 0 0 9em black, 0 0 0.5em black;
-  color:rgba(255, 255, 255,0.5);
+  color:rgb(255, 255, 255);
   position:absolute;
-  top:114px;
+  top:110px;
   left:180px;
-  font-weight: bold;
+  font-weight: 200;
   font-family:arial black ;
 }
 .story{
   text-shadow:  1px 1px 2px , 0 0 9em black, 0 0 0.2em black;
-  color:rgba(255, 255, 255,0.8);
+  color:rgb(255, 255, 255);
   position: absolute;
   bottom:20px;
   left:20px;
@@ -127,7 +128,7 @@ h2{
 }
 .event{
   text-shadow:  1px 1px 2px , 0 0 9em black, 0 0 0.5em black;
-  color:rgba(255, 255, 255,0.8);
+  color:rgba(255, 255, 255);
   position:absolute;
   top:152px;
   left:155px;
@@ -138,7 +139,7 @@ h2{
   display: flex;
   justify-content: center;
     position:relative;
-    bottom: 330px;
+    bottom: 335px;
     /* left:550px; */
 }
 .trapazium1{
@@ -168,8 +169,8 @@ h2{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-shadow:  1px 1px 2px , 0 0 9em black, 0 0 0.5em black;
   position: relative;
-  top:30px;
-  right:6px;
+  text-align: center;
+  top:40px;
 }
 
 #trapazium2{
@@ -177,9 +178,9 @@ h2{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-shadow:  1px 1px 2px , 0 0 9em rgb(253, 251, 251), 0 0 0.5em rgb(252, 250, 250);
   position:relative;
-  top:30px;
-  left:12px;
-
+  font-size: 22px;
+  text-align: center;
+  top:35px;
 }
 
 #trapazium3{
@@ -187,33 +188,34 @@ h2{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-shadow:  1px 1px 2px , 0 0 9em black, 0 0 0.5em black;
   position: relative;
-  top:30px;
-  left:8px;
+  text-align: center;
+  top:40px;
+    /* left:32px; */
 }
 
 .fault {
   height: 20vh;
   width: 100vw;
   background-color: black;
-  margin-top: -350px;
+  margin-top: -360px;
 }
 
 /* page 1 ends here and page 2 starts here  */
 
 .startPageTwo{
-  margin-top: -90px;
+  margin-top: -102px;
   padding: 0px;
-  height: 100vh;
   width: 100vw;
   background-color: rgba(100, 187, 187,0.8);
   /* filter:blur(10px); */
   backdrop-filter: blur(10px);
+  overflow: hidden;
 }
 
 .mainBG{
   /* background-color: aqua; */
-  height:100vh;
   width:100vw;
+  height: 170vh;
 }
 
 #firstImage{
@@ -305,14 +307,14 @@ h2{
 }
 
 span{
-  text-shadow: 0 0 5px white;
-  color:blueviolet
+  text-shadow: 0 0 1px rgb(153, 100, 100);
+  color:rgb(31, 10, 105)
 }
 .days30{
   position: relative;
   bottom:10px;
-  text-shadow: 0 0 5px blueviolet;
-  color:white;
+  text-shadow: 0 0 5px rgb(1, 7, 34);
+  color:rgb(247, 244, 244);
   font-size: 20px;
 }
 .paraFirstImage{
@@ -334,32 +336,32 @@ span{
   justify-content: center;
   align-items: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 28px;
+  font-size: 18px;
   height:25px;
   width:25px;
   border-radius: 10px;
   border:2px solid white;
-  box-shadow: 0 0 5px 2px blueviolet;
-  text-shadow: 0 0 5px blueviolet;
+  box-shadow: 0 0 5px 2px rgb(111, 115, 218);
+  text-shadow: 0 0 5px rgb(111, 115, 218);
   position: relative;
   left:200px;
   top:20px;
 }
 #welcome{
   position: relative;
-  top:15px;
-  text-shadow:0 0 5px blueviolet;
+  top:11px;
+  text-shadow:0 0 5px rgb(2, 4, 68);
   font-style: italic;
-  color:white;
+  color:rgb(246, 245, 248);
   font-family: arial black;
   font-size:58px;
 }
 #days{
-  text-shadow: 0 0 5px blueviolet;
+  text-shadow: 0 0 5px rgb(111, 115, 218);
   font-style:italic;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 25px;;
-  color:white;
+  color:rgb(245, 245, 247);
 }
 
 .paraSecondImage{
@@ -382,7 +384,7 @@ span{
   justify-content: center;
   align-items: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 28px;
+  font-size: 18px;
   height:25px;
   width:25px;
   border-radius: 10px;
@@ -430,7 +432,7 @@ span{
   justify-content: center;
   align-items: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 28px;
+  font-size: 18px;
   height:25px;
   width:25px;
   border-radius: 10px;
@@ -479,7 +481,7 @@ span{
   justify-content: center;
   align-items: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 28px;
+  font-size: 18px;
   height:25px;
   width:25px;
   border-radius: 10px;
@@ -610,14 +612,14 @@ footer{
   background-color: rgba(150, 62, 232, 0.5);
 }
 
-h2{
+.content h2{
   transition-property:all ;
   transition-duration:1s;
   padding:5px;
   /* background-color: aqua; */
   display: inline-block;
 }
-h2:hover{
+.content h2:hover{
   width:auto;
   border:1px solid green;
   border-radius: 25px;
