@@ -606,97 +606,127 @@ footer:hover{
 .content{
   letter-spacing: 0.5px;
   display: inline-block;
-  color: white;
-}
-.l1{
-  border:none;
-  width:fit-content;
-  height:fit-content;
-  padding:13px;
-  /* background-color: aliceblue; */
-  transition-property: all;
-  transition-duration: 1s;
-}
-/* p:hover{
-  font-size: 20px;
-} */
-.l1:hover{
-  border:none;
-  width: fit-content;
-  transform: rotate(2deg) scale(1.1);
-  box-shadow: 0px 0px 10px black;
-  border-radius: 25px;
-  background-color: rgba(150, 62, 232, 0.5);
-}
-.l2{
-  transition-property: all;
-  transition-duration: 1s;
-  width:fit-content;
-  height:fit-content;
-  padding:13px;
-  /* background-color: aqua; */
-}
-.l2:hover{
-  border:none;
-  width: fit-content;
-  transform: rotate(-2deg) scale(1.1);
-  box-shadow: 0px 0px 10px black;
-  border-radius: 25px;
-  background-color: rgba(150, 62, 232, 0.5);
-}
-.l3{
-  transition-property: all;
-  transition-duration: 1s;
-  padding:13px;
-  /* background-color: beige; */
-}
-.l3:hover{
-  border:none;
-  width: fit-content;
-  transform: rotate(2deg) scale(1.1) ;
-  box-shadow: 0px 0px 10px  black;
-  border-radius: 25px;
-  background-color: rgba(150, 62, 232, 0.5);
-}
-.l4{
-  transition-property: all;
-  transition-duration: 1s;
-  padding:13px;
-  /* background-color: blue; */
-}
-.l4:hover{
-  border:none;
-  width: fit-content;
-  transform: rotate(-2deg) scale(1.1);
-  box-shadow: 0px 0px 10px black;
-  border-radius: 25px;
-  background-color: rgba(150, 62, 232, 0.5);
-}
-.l5{
-  position: relative;
-  top:10px;
-  padding:13px;
-  /* background-color: blueviolet; */
-}
-.l5:hover{
-  border:none;
-  width: fit-content;
-  transform:  scale(1.1);
-  box-shadow: 0px 0px 10px black;
-  border-radius: 25px;
-  background-color: rgba(150, 62, 232, 0.5);
 }
 
 .content h2{
+  /* rgb(125, 121, 77)   rgb(16, 12, 4)  
+  rgb(80, 90, 89)  rgb(73, 61, 32) */
+  color: rgb(248, 250, 250);
+  text-shadow: 0px 0px 5px rgb(0, 65, 58);
   transition-property:all ;
-  transition-duration:1s;
-  padding:5px;
-  /* background-color: aqua; */
+  transition-duration:0.5s;
+  text-align: center;
   display: inline-block;
+  margin-top: -15px;
 }
 .content h2:hover{
   width:auto;
-  border:1px solid green;
-  border-radius: 25px;
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
+
+.content p {
+  margin-top: 10px;
+  padding-top: 5px;
+  font-size: 12px;
+  transition-property: all;
+  transition-duration: 1s;
+  color: rgb(254, 255, 255);
+  margin-left: 25px;
+}
+.l1:hover{
+  border:none;
+  width: 600px;
+  height: 40px;
+  transform: rotate(1deg) scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 231, 97, 0.678);
+  border-radius: 25px;
+  background-color: rgba(23, 1, 43, 0.041);
+  text-align: center;
+}
+/* .l2{
+  margin-top: 10px;
+  padding-top: 5px;
+  font-size: 12px;
+  transition-property: all;
+  transition-duration: 1s;
+  color: rgb(254, 255, 255);
+  margin-left: 25px;
+} */
+.l2:hover{
+  border:none;
+  width: 600px;
+  height: 40px;
+  transform: rotate(-1deg) scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 231, 97, 0.678);
+  border-radius: 25px;
+  background-color: rgba(23, 1, 43, 0.041);
+  text-align: center;
+}
+/* .l3{
+  padding-top: 5px;
+  font-size: 12px;
+  transition-property: all;
+  transition-duration: 1s;
+  color: rgb(254, 255, 255);
+  margin-left: 25px;
+} */
+.l3:hover{
+  border:none;
+  width: 600px;
+  height: 40px;
+  transform: rotate(1deg) scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 231, 97, 0.678);
+  border-radius: 25px;
+  background-color: rgba(23, 1, 43, 0.041);
+  text-align: center;
+}
+
+/* .l4{
+  padding-top: 5px;
+  font-size: 12px;
+  transition-property: all;
+  transition-duration: 1s;
+  color: rgb(254, 255, 255);
+  margin-left: 25px;
+} */
+.l4:hover{
+  border:none;
+  width: 600px;
+  height: 25px;
+  transform: rotate(-1deg) scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 231, 97, 0.678);
+  border-radius: 25px;
+  background-color: rgba(23, 1, 43, 0.041);
+  text-align: center;
+}
+/* .l5{
+  padding-top: 5px;
+  font-size: 12px;
+  transition-property: all;
+  transition-duration: 1s;
+  color: rgb(254, 255, 255);
+  margin-left: 25px;
+} */
+
+
+.content h3 {
+  margin-top: 40px;
+  padding-top: 2px;
+  font-size: 12px;
+  transition-property: all;
+  transition-duration: 1s;
+  color: rgb(254, 255, 255);
+  margin-left: 25px;
+}
+
+.content h3:hover{
+  border:none; 
+  width: 600px;
+  height: 20px;
+  transform:  scale(1.1);
+  box-shadow: 0px 0px 10px rgba(255, 231, 97, 0.678);
+  border-radius: 25px;
+  background-color: rgba(20, 17, 0, 0.678);
+  text-align: center;
+}
+
